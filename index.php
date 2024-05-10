@@ -69,7 +69,7 @@ if (isset($_POST['login'])) {
             <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
                 <center><img src="images/logo.webp"></center>
                 <hr>
-                <p><b>WELCOME</b></p>
+                <p><b>WELCOME To Vedikroots</b></p>
                 <label>Username</label>
                 <input type="text" name="username" placeholder="Enter Email ID"
                     value="<?php if (isset($_POST['username'])) {
